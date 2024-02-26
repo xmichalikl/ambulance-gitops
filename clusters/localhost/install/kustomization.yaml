@@ -10,3 +10,6 @@ commonLabels:
 
 resources:
 - ../../../apps/lmi-ambulance-ufe
+
+components:
+ - ../../../components/version-developers
