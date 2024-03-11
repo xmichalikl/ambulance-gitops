@@ -12,4 +12,4 @@ spec:
 
 # ak používate privátny repozitár nezabudnite doplniť autentifikačné údaje
 secretRef:
- name: lmi-repository-pat
+ name: repository-pat
