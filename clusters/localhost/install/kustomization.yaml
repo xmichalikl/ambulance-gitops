@@ -10,6 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/lmi-ambulance-ufe
+- ../../../apps/lmi-ambulance-webapi
 
 components:
- - ../../../components/version-developers
+- ../../../components/version-developers
+- https://github.com/xmichalikl/ambulance-webapi//deployments/kustomize/components/mongodb
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
