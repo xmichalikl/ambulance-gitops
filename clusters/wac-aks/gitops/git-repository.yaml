@@ -11,5 +11,5 @@ spec:
  url: https://github.com/xmichalikl/ambulance-gitops
  
 # ak používate privátny repozitár nezabudnite doplniť autentifikačné údaje
- secretRef:
-  name: repository-pat
+# secretRef:
+#  name: repository-pat
