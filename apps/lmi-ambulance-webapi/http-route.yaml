@@ -11,8 +11,8 @@ spec:
   rules:
     - matches:
         - path:
-          type: PathPrefix
-          value: /lmi-api
+            type: PathPrefix
+            value: /lmi-api
       filters:
         - type: URLRewrite
           urlRewrite:
@@ -38,11 +38,11 @@ spec:
             type: Exact
             value: /lmi-openapi
       filters:
-      - type: URLRewrite
-        urlRewrite:
-          path:
-            type: ReplaceFullPath
-            replaceFullPath: /openapi
+        - type: URLRewrite
+          urlRewrite:
+            path:
+              type: ReplaceFullPath
+              replaceFullPath: /openapi
       backendRefs:
         - group: ""
           kind: Service

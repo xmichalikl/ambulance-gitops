@@ -18,10 +18,11 @@ spec:
           kind: Service
           name: ufe-controller
           port: 80
+
     - matches:
-      - path:
-          type: Exact
-          value: /
+        - path:
+            type: Exact
+            value: /
       filters:
       - type: RequestRedirect
         requestRedirect:
