@@ -8,6 +8,6 @@ spec:
   ref:
     branch: main
   secretRef:
-    name: xmichalikl-repository-pat
+    name: repository-pat
   timeout: 1m0s
   url: https://github.com/xmichalikl/ambulance-gitops
