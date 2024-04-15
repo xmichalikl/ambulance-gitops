@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/lmi-ambulance-ufe
+ - ../../../apps/lmi-ambulance-webapi
 
 
 components:
