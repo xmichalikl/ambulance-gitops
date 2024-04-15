@@ -11,6 +11,7 @@ commonLabels:
 resources:
 - ../../../apps/lmi-ambulance-ufe
 - ../../../apps/lmi-ambulance-webapi
+- ../../../apps/mongo-express
 
 components:
 - ../../../components/version-developers
