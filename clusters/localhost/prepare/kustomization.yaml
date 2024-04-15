@@ -6,6 +6,7 @@ resources:
 - ../../../infrastructure/ufe-controller 
 - ../../../infrastructure/fluxcd      # kustomization pre ufe-controller
 - ../../../infrastructure/envoy-gateway
+- ../../../infrastructure/cert-manager
 
 patches:
 - path: patches/ufe-controller.service.yaml    # úprava služby ufe-controller
