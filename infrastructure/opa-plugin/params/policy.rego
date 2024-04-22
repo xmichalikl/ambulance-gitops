@@ -45,12 +45,12 @@ user_role[ "admin" ] {
 
 # this are admin users
 user_role[ "admin" ] {
-    user.email == "<xmichalikl@stuba.sk>"
+    user.email == "xmichalikl@stuba.sk"
 }
 
 # this are users with access to monitoring actions
 user_role[ "monitoring" ] {
-    user.email == "<xmichalikl@stuba.sk>"
+    user.email == "xmichalikl@stuba.sk"
 }
 
 # action is allowed if there is some role that is in user roles
