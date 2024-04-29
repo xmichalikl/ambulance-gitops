@@ -6,3 +6,5 @@ namespace: wac-hospital
 resources:
 - monitoring-opensearch.webcomponent.yaml
 - monitoring-opensearch.http-route.yaml
+- grafana.webcomponent.yaml
+- grafana.http-route.yaml

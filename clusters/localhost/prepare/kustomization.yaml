@@ -11,6 +11,8 @@ resources:
 - ../../../infrastructure/opa-plugin
 - ../../../infrastructure/fluentbit
 - ../../../infrastructure/monitoring-opensearch
+- ../../../infrastructure/prometheus
+- ../../../infrastructure/grafana
 
 patches:
 - path: patches/ufe-controller.service.yaml    # úprava služby ufe-controller
